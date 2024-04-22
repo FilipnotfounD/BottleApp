@@ -1,0 +1,15 @@
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\bin\Debug\net7.0\ProjectBottles.exe
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\bin\Debug\net7.0\ProjectBottles.deps.json
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\bin\Debug\net7.0\ProjectBottles.runtimeconfig.json
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\bin\Debug\net7.0\ProjectBottles.dll
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\bin\Debug\net7.0\ProjectBottles.pdb
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.csproj.AssemblyReference.cache
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.AssemblyInfoInputs.cache
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.AssemblyInfo.cs
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.csproj.CoreCompileInputs.cache
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.dll
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\refint\ProjectBottles.dll
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.pdb
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ProjectBottles.genruntimeconfig.cache
+C:\Users\filip\source\repos\ProjectBottles\ProjectBottles\obj\Debug\net7.0\ref\ProjectBottles.dll

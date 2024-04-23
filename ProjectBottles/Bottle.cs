@@ -15,24 +15,24 @@ public class Bottle
         Maker = Vyrobce;
     }
 
-    public bool Sip()
+    public void Sip()
     {
         if (CurrentVolume >= 50)
         {
             CurrentVolume -= 50;
 
-            return true;
+            Console.WriteLine(true);
         }
 
         else
         {
 
-            return false;
+            Console.WriteLine(false);
 
         }
     }
 
-    public string Sip(int input)
+    public void Sip(int input)
     {
 
         if(CurrentVolume < input)
@@ -41,23 +41,23 @@ public class Bottle
 
             CurrentVolume = 0;
 
-            return $"Bylo ubráno: {value} ml.";
+            Console.WriteLine($"Bylo ubráno: {value} ml.");
         }
 
         else
         {
             CurrentVolume -= input;
 
-            return $"Bylo ubráno: {input} ml.";
+            Console.WriteLine($"Bylo ubráno: {input} ml.");
         }
     }
 
-    public string Refill()
+    public void Refill()
     {
         var rozdil = MaxVolume - CurrentVolume;
 
         CurrentVolume += rozdil;
 
-        return $"Bylo doplněno: {rozdil} ml.";
+        Console.WriteLine($"Bylo doplněno: {rozdil} ml.");
     }
 }

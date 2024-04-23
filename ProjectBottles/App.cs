@@ -22,20 +22,20 @@ public class App
 
             if (answer3 == "D")
             {
-                Console.WriteLine(Bottle.Refill());
+                Bottle.Refill();
                 PrintDeLimiter();
             }
             else if(answer3 == "S")
             {
-                Console.WriteLine(Bottle.Sip());
+                Bottle.Sip();
             }
             else if(answer3 == "Z")
             {
                 PrintDeLimiter();
-                Console.WriteLine("Zadej kolik o kolik chceš snížit objem:");
-                int answer4 = SafelyConvertToInt(Console.ReadLine()!);
+                Console.WriteLine("Zadej o kolik chceš snížit objem:");
+                var answer4 = SafelyConvertToInt(Console.ReadLine()!);
 
-                Console.WriteLine(Bottle.Sip(answer4));
+                Bottle.Sip(answer4);
                 PrintDeLimiter();
             }
             else if(answer3 == "U")

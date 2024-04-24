@@ -12,8 +12,8 @@ public class App
         Console.WriteLine("Zadej výrobce lahve:");
         var answer2 = Console.ReadLine()!;
 
-        var Bottle = new Bottle(answer, answer2);
-        Bottle.CurrentVolume = answer;
+        var bottle = new Bottle(answer, answer2);
+        bottle.CurrentVolume = answer;
 
         while (proceed)
         {
@@ -22,12 +22,12 @@ public class App
 
             if (answer3 == "D")
             {
-                Bottle.Refill();
+                Console.WriteLine(bottle.Refill());
                 PrintDeLimiter();
             }
             else if(answer3 == "S")
             {
-                Bottle.Sip();
+                Console.WriteLine(bottle.Sip());
             }
             else if(answer3 == "Z")
             {
@@ -35,7 +35,7 @@ public class App
                 Console.WriteLine("Zadej o kolik chceš snížit objem:");
                 var answer4 = SafelyConvertToInt(Console.ReadLine()!);
 
-                Bottle.Sip(answer4);
+                Console.WriteLine(bottle.Sip(answer4));
                 PrintDeLimiter();
             }
             else if(answer3 == "U")

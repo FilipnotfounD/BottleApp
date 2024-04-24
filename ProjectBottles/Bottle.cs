@@ -6,7 +6,7 @@ public class Bottle
 {
     public int MaxVolume;
     public int CurrentVolume;
-    public string Maker { get; set; }= null!;
+    public string Maker { get; set; } = null!;
 
     public Bottle(int MaxObjem, string Vyrobce)
     {
@@ -15,24 +15,24 @@ public class Bottle
         Maker = Vyrobce;
     }
 
-    public void Sip()
+    public bool Sip()
     {
         if (CurrentVolume >= 50)
         {
             CurrentVolume -= 50;
 
-            Console.WriteLine(true);
+            return true;
         }
 
         else
         {
 
-            Console.WriteLine(false);
+            return false;
 
         }
     }
 
-    public void Sip(int input)
+    public int Sip(int input)
     {
 
         if(CurrentVolume < input)
@@ -41,23 +41,23 @@ public class Bottle
 
             CurrentVolume = 0;
 
-            Console.WriteLine($"Bylo ubráno: {value} ml.");
+            return value;
         }
 
         else
         {
             CurrentVolume -= input;
 
-            Console.WriteLine($"Bylo ubráno: {input} ml.");
+            return input;
         }
     }
 
-    public void Refill()
+    public int Refill()
     {
         var rozdil = MaxVolume - CurrentVolume;
 
         CurrentVolume += rozdil;
 
-        Console.WriteLine($"Bylo doplněno: {rozdil} ml.");
+        return rozdil;
     }
 }
